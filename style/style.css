@@ -2,11 +2,8 @@
 
 .firstpage{
         background: url(../assets/Hero-bg.png);
-        position: absolute;
     width: auto;
     height: auto;
-    left: 0;
-    right: 0;
     display: flex;
     justify-items: center;
     display: block;
@@ -22,7 +19,7 @@
     text-align: center;
     margin: 0px 200px;
 }
-p{
+.p1{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -45,6 +42,104 @@ p{
     }
 
 
+.headline2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.p2{
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 0px 100px;
+}
+.second , .three{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 80px 97px 80px 97px;
+}
+.one{
+    
+    width: 946px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    /* align-items: ; */
+    padding: 48px;
+    margin: 32px 0px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(248, 247, 247),rgba(255, 255, 255, 0) 100%);
+    gap: 100px;
+    text-align: right center;
+}
+.one-head{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+}
+.mid{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
 
-
+}
+.btn2{
+        box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.bttn{
+    text-decoration: none;
+    color: black;
+}
+.p3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.vid{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    width: 1140px;
+    height: 614px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    margin: 48px 0px;
+}
 
